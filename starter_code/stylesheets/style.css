@@ -9,75 +9,84 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+
+
 @media(max-width: 768px){
 
     body{
         background-color: #540B51;
     }
+   
+    #img-1 {
+        width: 150px;
+    }
     #section-1{
-    background-color: #540B51;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 10640px;
-    }
-    #img-1{
-        margin-left: 30px;
-        
-    }
-
-    #div-right {
-        background-color: #540B51;
         display: flex;
-        
-      
-        padding-right: 200px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
 
-
-
+       
     }
-    .img-nav{
+    #div-right{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    #img-nav{
         background-color: #540B51;
-        padding: 0;
-        border-color: #540B51;
-        width: 70px;
-        margin-top: 20px;
+        box-sizing: border-box;
     }
     #section-1 button {
         background-color: #540B51;
-        border-color: #540B51;
         border: none;
-        
+        width: 60px;
+        box-sizing: border-box;
     }
-    #section-2 {
-        background-color: #540B51;
+    #div-top{
         display: flex;
-        flex-flow: row wrap;
-        margin:0;
-        width: 1640px;
-
-        
-    }
-
-    #section-2 {
-        display: flex;
+        flex-flow: row ;
         justify-content: center;
+        align-items: center;
     }
-
-    #section-2 div {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        
-       
-    }
-
-    #section-2 h1{
-        color: white;
-        font-family: arial;
+    h1 {
         text-align: center;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    #section-2 div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         
     }
+
+    #section-2 p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        
+    }
+    .span {
+        color: yellow;
+    }
+    #sign-up{
+        height: 80px
+       
+        
+    }
+    #google{
+        height: 80px;
+    }
+    
+    }
+
+
+    
      
 
 
