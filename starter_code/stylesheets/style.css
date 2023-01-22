@@ -9,94 +9,285 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-
-
-@media(max-width: 768px){
-
-    body{
-        background-color: #540B51;
+@media(max-width: 768px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        overflow-x: hidden;
     }
-   
-    #img-1 {
-        width: 150px;
+
+    .background-purple {
+        background-color: #540b51;
     }
-    #section-1{
+
+    /*nav section*/
+    #nav-bar {
+        display: flex;
+        align-items: center;
+
+        height: 60px;
+
+
+    }
+
+    #nav-bar img {
+        width: 35%;
+        padding-left: 20px;
+        margin: 0 auto;
+    }
+
+    #butt {
+
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        width: 25%;
+
+
+    }
+
+    #butt button {
+        border: none
+    }
+
+    #butt img {
+        padding: 0;
+        width: 20px;
+
+    }
+
+    /*header*/
+    #header {
+        margin: 0 auto;
+
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    #sign-info {
+        padding-bottom: 20px;
+    }
+
+    #sign-info h1 {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 13px;
+        padding-right: 40px;
+        height: 150px;
+        width: 370px;
+    }
+
+    #sign-info p {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .yellow-text {
+        color: #ECB12F;
+    }
+
+    #sign-info div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 300px;
+        margin: 0 auto;
+
+    }
+
+    #sign-up-butt {
+        height: 70px;
+        color: #540b51;
+        text-transform: uppercase;
+        border-radius: 8px;
+    }
+
+    #google-butt {
+        color: white;
+        text-transform: uppercase;
+        background-color: #4285F4;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 40px;
-
-       
+        height: 70px;
+        border-radius: 8px;
+        padding-right: 70px;
     }
-    #div-right{
-        display: flex;
-        justify-content: flex-end;
+
+    #google-butt img {
+        background-color: white;
+        width: 40px;
+    }
+    #app-img {
+        background-image: url(../images/hero-product-ui.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 470px
+
         
     }
-    #img-nav{
-        background-color: #540B51;
-        box-sizing: border-box;
+
+
+    /*main*/
+    .ivory-color{
+        background-color: #F3EAE2;
     }
-    #section-1 button {
-        background-color: #540B51;
-        border: none;
-        width: 60px;
-        box-sizing: border-box;
+    #main {
+        margin:0 auto;
     }
-    #div-top{
-        display: flex;
-        flex-flow: row ;
-        justify-content: center;
-        align-items: center;
-    }
-    h1 {
+    #clients p {
+        
+        font-size: 1.5em;
+        text-transform: uppercase;
         text-align: center;
-        font-size: 80px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        
     }
-    #section-2 div{
+    #clients div{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        
+    }
+    .main-h2{
+        font-size: 2.8em;
+        padding-left: 10px;
+        margin-top: 0;
+    
+    }
+    .main-p{
+        font-size: 1.5em;
+        line-height: 1.5em;
+        padding-left: 10px;
+    }
+    .main-a {
+        font-size: 1.5em;
+        text-decoration: none;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        
+    }
+    .padding-main-text{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #marketing h3{
+        font-size: 2.7em;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #marketing > p {
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    #marketing div{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 10px;
-        
+        width: 300px;
+        margin-left: 10px;
     }
-
-    #section-2 p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+    #button-1 {
+        height: 50px;
+        background-color: #540b51;
+        border-radius: 8px;
+        border-width: 2px;
         color: white;
-        letter-spacing: 2px;
-        margin-bottom: 40px;
-        font-size: 20px;
+        text-transform: uppercase;
+        width: 370px;
+        padding-right: 20px;
         
     }
-    .span {
-        color: yellow;
+    #button-2{
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        color: #540b51;
+        text-transform: uppercase;
+        border-color: #540b51;
+        width: 370px;
+        
     }
-    #sign-up{
-        height: 80px
+    #marketing ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        padding-right: 40px;
+
+        
+    }
+    .percentages{
+        color: #540b51;
+        font-size: 5em;
+        text-align: center;
+        margin: 0;
+        
        
+    }
+    .percentages-data{
+        text-align: center;
+        font-size: 2em;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #main-buts  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        gap: 10px;
+    }
+    #main-but-1 {
+        height: 50px;
+        background-color: #540b51;
+        border-color: white;
+        border-radius: 4px;
+        border-width: 2px;
+        color: white;
+        text-transform: uppercase;
+        width: 370px;
+        padding-right: 20px;
+    }
+    #main-but-2 {
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        color: #540b51;
+        text-transform: uppercase;
+        border-color: #540b51;
+        width: 370px;
         
     }
-    #google{
-        height: 80px;
+    #main-buts h3 {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30PX;
     }
-    
-    }
-
 
     
-     
 
-
-
-
-
-
-
-
+    
 
 }
 
-   
+
